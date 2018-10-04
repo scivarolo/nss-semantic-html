@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.rep__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.rep__district,
+.rep__party {
+  padding: 5px 10px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.rep__party {
+  background-color: blue;
+  color: white;
+}
+
+.rep__image {
+  order: -1;
+  margin-right: 15px;
+}
+
+.rep__name {
+  font-size: 3em;
+  margin: 0 0 10px;
+}
+
+.rep__committees,
+.rep__legislation {
+  margin: 1%;
+  width: 48%;
+  padding: 20px;
+  float: left;
+  background-color: lightblue;
+  border-radius: 7px;
+}
+.rep__legislation {
+  float: right;
+}
+
+.rep__committees ul,
+.rep__legislation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.committee__name {
+  margin-top: 30px;
+}
+
+.subcommittee {
+  padding-left: 20px;
+  border-left: 1px solid lightcyan;
+}
+
+.subcommittee__name {
+  margin-bottom: 0;
+}
+.subcommittee__position,
+.bill__number {
+  margin-top: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
