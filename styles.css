@@ -51,9 +51,7 @@ h1, h2, h3 {
 .rep__committees,
 .rep__legislation {
   margin: 1%;
-  /* width: 48%; */
   padding: 20px;
-  /* float: left; */
   background-color: lightblue;
   border-radius: 7px;
 }
@@ -61,7 +59,6 @@ h1, h2, h3 {
   flex: 1;
 }
 .rep__legislation {
-  /* float: right; */
   flex: 2;
 }
 
